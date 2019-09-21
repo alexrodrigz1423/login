@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="#202732">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:textSize="30dp"
+        android:id="@+id/lblIdModelItem"
+        android:layout_marginLeft="15dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grupo"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/lblGrupoModelItem"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Materia"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/lblMateriaModelItem"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actividad"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/lblActividadModelItem"/>
+
+
+</LinearLayout>
